@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ranjeet Aloriya | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <a href="/" id="logo">
+            <img src="logo.png" alt="Ranjeet Logo" />
+        </a>
+        <ul>
+            <li><a href="#about" class="nav-link">ABOUT</a></li>
+            <li><a href="#Services" class="nav-link">SERVICES</a></li>
+            <li><a href="#Testimonial" class="nav-link">TESTIMONIAL</a></li>
+            <li><a href="#blog" class="nav-link">BLOG</a></li>
+            <li><a href="#contact" class="nav-link">CONTACT</a></li>
+        </ul>
+    </nav>
+    
+    <section class="hero">
+      <div class="hero-left">
+        <h1 class="main-name">
+          <span class="welcome">Welcome to</span>
+          <span class="highlight-name">Ai</span><span class="alt-name">dMas</span>
+        </h1>
+        <p class="university">Your Trusted Partner in Secure Data Solutions</p>
+        <div class="buttons">
+          <button class="btn download" onclick="sendMail()">💡 Let's Collaborate</button>
+          <!-- <button onclick="sendMail()">Let's Collaborate</button> -->
+          <button class="btn video">📞 Contact us today</button>
+        </div>
+      </div>
+    </section>
+    
+    <section class="about", id="about">
+    <div class="title">Who We Are</div>
+      <h1 class="sub-title">Where Data Meets Precision, Protection, and Purpose.</h1>
+      <div class="about-content">
+        <p>In today’s fast-paced digital world, data is power – and AidMas helps you wield it with precision, confidentiality, and trust. With over six years of experience and a portfolio of 500+ successful projects for 30+ valued clients.
+
+          At the core of our services lies a dedication to accuracy, confidentiality, and on-time delivery. Whether you're a startup safeguarding sensitive customer data or an enterprise managing complex datasets, <span class="highlight-name">Ai</span><span class="alt-name">dMas</span> provides end-to-end support tailored to your unique needs.</p>
+
+        <p>
+          At <span class="highlight-name">Ai</span><span class="alt-name">dMas</span>, we believe that <em>data is more than just information</em> — it’s the foundation of trust, growth, and innovation.
+          We help businesses navigate the complexities of secure data handling with <strong>clarity, integrity, and confidence</strong>.
+        </p>
+
+        <div class="features">
+          <h3>Our Core Values</h3>
+          <ul>
+            <li><strong>🌟 Integrity:</strong> We treat your data as if it were our own.</li>
+            <li><strong>💎 Excellence:</strong> Precision and perfection in every detail.</li>
+            <li><strong>🔒 Confidentiality:</strong> Built-in trust and airtight protection.</li>
+            <li><strong>🤝 Collaboration:</strong> Working as an extension of your team.</li>
+          </ul>
+        </div>
+
+        <div class="why-aidmas">
+          <h3>Why <span class="highlight-name">Ai</span><span class="alt-name">dMas</span>?</h3>
+          <p>
+            In today’s digital ecosystem, <strong>data is everything</strong>. Whether you're responding to a breach or enhancing your infrastructure,
+            <span class="highlight-name">Ai</span><span class="alt-name">dMas</span> turns challenges into smart, secure solutions.
+          </p>
+        </div>
+      </div>
+  </section>
+
+
+    <!-- Services Section -->
+    <section id = 'Services' class="services">
+    <div class="title">Services</div>
+      <h1 class="sub-title">Where Data Meets Precision, Protection, and Purpose.</h1>
+      <!-- <h2 class="services-title">Services</h2>
+      <p class="intro">What services you can expect from us.</p> -->
+      <div class="tiles-container">
+        <div class="tile">
+          <div class="icon-box">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3>Data Mining</h3>
+          <p>Programmatic extraction of large datasets using Python, Excel, and SQL.</p>
+        </div>
+        <div class="tile">
+          <div class="icon-box">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Incident Response</h3>
+          <p>Expert support for post-breach analysis, review, and notification workflows.</p>
+        </div>
+        <div class="tile">
+          <div class="icon-box">
+            <i class="fas fa-tools"></i>
+          </div>
+          <h3>Automation Tools</h3>
+          <p>Custom tools for sensitive data extraction and data transformation pipelines.</p>
+        </div>
+        <div class="tile">
+          <div class="icon-box">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Script Development</h3>
+          <p>Building scripts to automate repetitive tasks, improve speed, and ensure accuracy.</p>
+        </div>
+        <div class="tile">
+          <div class="icon-box">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Dashboarding</h3>
+          <p>Creating BI dashboards using Power BI & Sisense for actionable data insights.</p>
+        </div>
+        <div class="tile">
+          <div class="icon-box">
+            <i class="fas fa-user-shield"></i>
+          </div>
+          <h3>Data Privacy Audits</h3>
+          <p>GDPR & HIPAA audits for secure and compliant data handling and workflows.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id = 'Testimonial' class="testimonial-section">
+      <div class="title">Testimonial</div>
+      <h1 class="sub-title">What client says about us.</h1>
+      <div class="avatar-circle">
+        <img src="client4.png" alt="avatar" class="avatar top-left" />
+        <img src="client1.png" alt="avatar" class="avatar bottom-left" />
+        <img src="client2.png" alt="avatar" class="avatar top-right" />
+        <img src="client4.png" alt="avatar" class="avatar bottom-right" />
+        <img src="client1.png" alt="avatar" class="avatar bottom-center1" />
+        <img src="client3.png" alt="avatar" class="avatar bottom-center" />
+      </div>
+      <div class="testimonial-carousel">
+        <div class="testimonial-card active">
+          <div class="testimonial-image-wrapper">
+            <img src="client4.png" alt="Client 1" class="testimonial-image" />
+            <div class="quote-icon">❝</div>
+          </div>
+          <p class="testimonial-text">
+            Ranjeet is very bright, understands the task at hand and works very efficiently. He helped me with a few data projects analyzing and structuring large data sets. I highly recommend him!
+          </p>
+          <hr />
+          <h4 class="client-name">CJ Tufano</h4>
+          <p class="client-profession">Founder & CEO - Cherrypicker</p>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-image-wrapper">
+            <img src="client1.png" alt="Client 2" class="testimonial-image" />
+            <div class="quote-icon">❝</div>
+          </div>
+          <p class="testimonial-text">
+            Magna elitr at rebum eos dolor clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet.
+          </p>
+          <hr />
+          <h4 class="client-name">Client Name 2</h4>
+          <p class="client-profession">Profession 2</p>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-image-wrapper">
+            <img src="client3.png" alt="Client 3" class="testimonial-image" />
+            <div class="quote-icon">❝</div>
+          </div>
+          <p class="testimonial-text">
+            Clita ipsum magna sed tempor eos et dolor justo. Sit justo sit kasd diam stet amet lorem. Et lorem et ipsum just tempor dolor.
+          </p>
+          <hr />
+          <h4 class="client-name">Client Name 3</h4>
+          <p class="client-profession">Profession 3</p>
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <span class="dot active" onclick="goToSlide(0)"></span>
+        <span class="dot" onclick="goToSlide(1)"></span>
+        <span class="dot" onclick="goToSlide(2)"></span>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-section">
+      <div class="title">Blogs</div>
+      <h1 class="sub-title">Where Data Meets Precision, Protection, and Purpose.</h1>
+      <div class="blog-container">
+        <div class="blog-wrapper">
+          <div class="main-blog-area">
+            <div class="blog-slider" id="blog-slider">
+              <div class="blog-post active">
+                <img src="images/proj_1.jpg" alt="Blog 1" class="blog-image">
+                <div class="blog-info">
+                  <h3 class="blog-title">Understanding Cyber Data Mining</h3>
+                  <p class="blog-meta">by Ranjeet Aloriya | Posted on April 6, 2025</p>
+                  <p class="blog-summary">A comprehensive guide to how cyber data mining works and its role in breach notification and incident response.</p>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+              </div>
+              <div class="blog-post">
+                <img src="images/proj_2.jpg" alt="Blog 2" class="blog-image">
+                <div class="blog-info">
+                  <h3 class="blog-title">Automating Breach Notification Lists</h3>
+                  <p class="blog-meta">by Ranjeet Aloriya | Posted on April 1, 2025</p>
+                  <p class="blog-summary">See how automation tools can help streamline the process of generating notification lists.</p>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+              </div>
+              <div class="blog-post">
+                <img src="images/proj_3.jpg" alt="Blog 3" class="blog-image">
+                <div class="blog-info">
+                  <h3 class="blog-title">Efficient Data Clustering in Incident Response</h3>
+                  <p class="blog-meta">by Ranjeet Aloriya | Posted on March 28, 2025</p>
+                  <p class="blog-summary">Discover how to group large datasets based on similarity in content using Python and automation tools.</p>
+                  <a href="#" class="read-more">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar-blog-area">
+            <div class="blog-thumbnails" id="blog-thumbnails">
+              <div class="thumb-post" onclick="goToBlog(0)">
+                <img src="images/proj_1.jpg" alt="Thumb 1">
+              </div>
+              <div class="thumb-post" onclick="goToBlog(1)">
+                <img src="images/proj_2.jpg" alt="Thumb 2">
+              </div>
+              <div class="thumb-post" onclick="goToBlog(2)">
+                <img src="images/proj_3.jpg" alt="Thumb 3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="title-row">
+          <h2 class="section-title">Let's Work Together</h2>
+          <button class="say-hello-button" onclick="startChat()">Say Hello</button>
+        </div>
+        
+        <!-- Chat widget -->
+        <div class="chat-widget hidden" id="chatWidget">
+          <div class="chat-header">
+            <img src="logo.png" alt="Avatar" class="avatar">
+            <div class="agent-info">
+              <span class="agent-name">Ranjeet</span>
+              <span class="agent-status">Online</span>
+            </div>
+            <button class="close-chat" onclick="closeChat()">×</button>
+          </div>
+        
+          <div class="chat-body" id="chatBody"></div>
+        
+          <div class="chat-input">
+            <input type="text" id="chatInput" placeholder="Type your message..." onkeypress="handleChat(event)">
+          </div>
+        </div>              
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="info-block">
+              <h4>My office:</h4>
+              <p>123 Street, New York, USA</p>
+            </div>
+            <div class="info-block">
+              <h4>Mail me:</h4>
+              <p>info@example.com</p>
+            </div>
+            <div class="social-block">
+              <h4>Follow me:</h4>
+              <div class="social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="input-row">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+              </div>
+              <input type="text" name="subject" placeholder="Subject" required />
+              <textarea name="message" placeholder="Message" required></textarea>
+              <div class="bottom-left-button">
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <!-- <div class="container"> -->
+        <p>&copy; 2025 <span class="highlight-name">Ai</span><span class="alt-name">dMas</span>. All rights reserved.</p>
+      <!-- </div> -->
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
