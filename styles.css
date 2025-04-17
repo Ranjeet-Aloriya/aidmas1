@@ -118,7 +118,7 @@ ul {
   align-items: center;
   min-height: 73vh;
   padding: 2rem 2rem;
-  background-image: url('../images/bg-header.png');
+  background-image: url('bg-header.png');
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
